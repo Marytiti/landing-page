@@ -47,10 +47,103 @@ button {
 
 .left-side {
     padding-left: 48px;
+    width: 40%;
 }
 
 
 header {
     display: flex;
     background-color: #1f2937;
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+.link-text {
+    width: 60%;
+}
+
+ul {
+    /* width: 60%; */
+    gap: 20px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    /* text-align: right; */
+    /* align-items: flex-end;
+    align-content: flex-end; */
+    /* padding-left: 50px; */
+}
+
+/* li {
+    margin-left: 50px;
+} */
+
+.link-text img {
+    background-color: lightgray;
+    width: 500px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.move {
+    padding-left: 20px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* text-align: justify; */
+}
+
+.images {
+    display: flex;
+    gap: 0px;
+    justify-content: space-evenly;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.icons {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.section-2-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+figcaption {
+    color: grey;
+    margin-top: 10px;
+    width: 150px;
+    margin-bottom: 90px;
+}
+
+.section-3 {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    margin-left: 50px;
+    /* text-align: center; */
 }
