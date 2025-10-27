@@ -43,6 +43,7 @@ button {
     outline: none;
     font-size: 18px;
     box-shadow: none;
+    color: white;
 }
 
 .left-side {
@@ -144,6 +145,61 @@ figcaption {
     font-weight: 300;
     color: #1f2937;
     font-style: italic;
-    margin-left: 50px;
+    margin-left: 25%;
+    margin-right: 13%;
     /* text-align: center; */
+}
+
+.quote-person {
+    margin-left: 70%;
+    font-weight: bold;
+}
+
+.section-4 {
+    background-color: #f9faf8;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-left-side {
+    background-color: #3882f6;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.action-text {
+    font-size: 25px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sign-up-text {
+    font-size: 20px;
+    color: #e5e7eb;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.section-button {
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer {
+    height: 100px;
+    font-size: 20px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
