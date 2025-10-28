@@ -48,7 +48,7 @@ button {
 
 .left-side {
     padding-left: 48px;
-    width: 40%;
+    width: 35%;
 }
 
 
@@ -62,7 +62,8 @@ header {
 }
 
 .link-text {
-    width: 60%;
+    width: 66%;
+    /* text-align: end; */
 }
 
 ul {
@@ -84,9 +85,11 @@ ul {
 
 .link-text img {
     background-color: lightgray;
+    max-width: 80%;
+    height: auto;
     width: 500px;
     height: 250px;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 50px;
 }
 
